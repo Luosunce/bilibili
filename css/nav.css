@@ -1,0 +1,84 @@
+body {
+  background-color: #eaeaea; }
+
+a {
+  text-decoration: none; }
+
+.site-wrapper {
+  display: table;
+  width: 100%;
+  background-color: #fb7299;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;  }
+
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top; }
+
+.cover-container {
+  margin-right: auto;
+  margin-left: auto; }
+
+.inner {
+  padding: 0 20px 0 20px; }
+
+.masthead-brand {
+  margin-bottom: 0px;
+  color: #fff;
+  font-weight: bold; }
+
+.masthead-nav > li {
+  display: inline-block; }
+
+.masthead-nav > li + li {
+  margin-left: 20px; }
+
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  color: #fdc6d6;
+  border-bottom: 2px solid transparent; }
+
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255, 255, 255, 0.25); }
+
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff; }
+
+.masthead-brand {
+  float: left; }
+
+.masthead-nav {
+  float: right;
+  margin-top: 10px; }
+
+/*
+ * Affix and center
+ */
+@media (min-width: 992px) {
+  .masthead,
+  .cover-container {
+    width: 700px; } }
+.item img {
+  width: 100%; }
+
+.navbar-default {
+  background-color: #fb7299;
+  border-color: #fb7299; }
+
+.navbar {
+  color: #fff;
+  margin-bottom: 0; }
+
+/*# sourceMappingURL=nav.css.map */

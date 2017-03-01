@@ -1,0 +1,26 @@
+/* 表格布局的九宫格 */
+.mytb {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.mytb tr td {
+    width: 33.33%;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.mytb tr td img {
+    max-width: 80%;
+    width: 30%;
+    margin-bottom:5px;
+}
+
+.mytb tr td span {
+    display: block;
+    width: 100%;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+

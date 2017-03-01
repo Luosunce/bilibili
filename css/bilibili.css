@@ -1,0 +1,222 @@
+body {
+    background-color: #eaeaea;
+}
+
+a {
+    text-decoration: none;
+}
+
+.site-wrapper {
+    display: table;
+    width: 100%;
+    background-color: #fb7299;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.site-wrapper-inner {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.cover-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.inner {
+    padding: 0 20px 0 20px;
+}
+
+.masthead-brand {
+    margin-bottom: 0px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.masthead-nav > li {
+    display: inline-block;
+}
+
+.masthead-nav > li + li {
+    margin-left: 20px;
+}
+
+.masthead-nav > li > a {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    color: rgba(255, 255, 255, .75);
+    border-bottom: 2px solid transparent;
+}
+
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+    background-color: transparent;
+    border-bottom-color: #a9a9a9;
+    border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+.masthead-brand {
+    float: left;
+}
+
+.masthead-nav {
+    float: right;
+    margin-top: 10px;
+}
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 992px) {
+    .masthead,
+    .cover-container {
+        width: 700px;
+    }
+}
+
+.indicators-location {
+    right: 5%;
+    position: absolute;
+    bottom: -5%;
+    right: 5%;
+    left: 0;
+    width: 100%;
+    padding-left: 0;
+    margin-left: -5%;
+    text-align: right;
+}
+
+.indicators-location li {
+    width: 5px;
+    height: 5px;
+}
+
+.indicators-location .active {
+    width: 8px;
+    height: 8px;
+}
+
+.item img {
+    width: 100%;
+}
+
+.mycol4 {
+    position: relative;
+    margin-left: -20px;
+    text-align: left;
+    margin-top: 25px;
+    color: #000000;
+}
+
+.mycol6 {
+    position: relative;
+    text-align: right;
+    margin: 25px 12px;
+    color: #000000;
+
+}
+
+.caption p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.name {
+    font-size: 10px;
+    color: rgba(15, 15, 15, 0.58);
+    overflow: hidden;
+    word-break: keep-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 20px;
+}
+
+.caption .online {
+    font-size: 10px;
+    color: rgba(15, 15, 15, 0.58);
+}
+
+#top {
+    margin-top: 54px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: #fff;
+}
+
+.top_image {
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(102, 94, 87, 0.11);
+}
+
+#top div li {
+    float: left;
+    list-style: none;
+}
+
+#contianer {
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.custom-row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.custom-col-xs {
+    padding: 5px;
+    text-align: left;
+}
+
+.no-padding {
+    padding: 0px;
+    box-shadow: 2px 2px 2px #d2d2d2;
+    border-radius: 1.5px;
+}
+
+.info span{
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.mytable {
+    width: 100%;
+}
+
+.mytable tr td {
+    width: 20%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+.mytable tr td img{
+    max-width: 80%;
+    width: 40%;
+}
+.mytable tr td span {
+    font-size: 10px;
+    margin: 6px 0;
+    display: block;
+}
+

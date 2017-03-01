@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,inital-scale=1,maximum-scale=1,user-scalable=0"/>
+    <meta name="description" content>
+    <meta name="author" content>
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/nav.css" type="text/css" rel="stylesheet">
+    <link href="css/recommend.css" type="text/css" rel="stylesheet">
+
+    <title>bilibili</title>
+
+
+</head>
+<body>
+<div class="site-wrapper">
+    <div class="site-wrapper-inner">
+        <div class="cover-container">
+            <div class="masthead clearfix">
+                <div class="inner">
+                    <h3 class="masthead-brand">bilibili</h3>
+                    <nav>
+                        <ul class="nav masthead-nav">
+                            <li><a href="index.html">直播</a></li>
+                            <li class="active"><a href="recommend.html">推荐</a></li>
+                            <li><a href="zhuifan.html">追番</a></li>
+                            <li><a href="zone.html">分区</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--div撑起导航部分-->
+<div style="width: 100%;height: 54px"></div>
+
+<!--轮播图开始-->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+    </ol>
+
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="image/recommend/banner.jpg" alt="...">
+        </div>
+        <div class="item">
+            <img src="image/recommend/banner2.jpg" alt="...">
+        </div>
+        <div class="item">
+            <img src="image/recommend/banner3.png" alt="...">
+        </div>
+        <div class="item">
+            <img src="image/recommend/banner4.jpg" alt="...">
+        </div>
+        <div class="item">
+            <img src="image/recommend/banner5.jpg" alt="...">
+        </div>
+
+    </div>
+
+</div>
+<!--轮播图结束-->
+
+<!--内容-->
+<!--热门推荐-->
+<div class="container-fluid">
+    <div style="margin: 10px 0;height: 25px;">
+        <img src="image/recommend/rmtj.png" style="vertical-align: middle;margin-bottom: 5px;" width="25px">
+        <span style="line-height: 25px">热门推荐</span>
+        <img src="image/recommend/phb_btn.png" style="float: right;margin-top: 2px;" onclick="myCheck('rangking')"
+             width="70px;">
+    </div>
+
+
+    <div class="row">
+        <div class="col-xs-6" style="text-align: left">
+            <div class="jumbotron">
+                <img src="image/recommend/rmtj1.jpg">
+                <div style="width: 100%;height: 40px">
+                <p>【过气up/Gosick/结婚】你们老婆跟人跑了</p>
+    </div>
+                <div class="div-bottom">
+                    <div>
+                        <img src="image/recommend/gks.png">47.9万
+                    </div>
+                    <div>
+                        <img src="image/recommend/pls.png">1184
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6">
+            <div class="jumbotron">
+                <img src="image/recommend/rmtj2.jpg">
+                <div style="width: 100%;height: 40px"><p>【火影忍者OP】你没听过的Ukulele清新弹唱版《青鸟》!</p>
+               </div> <div class="div-bottom">
+                    <div>
+                        <img src="image/recommend/gks.png">47.9万
+                    </div>
+                    <div>
+                        <img src="image/recommend/pls.png">1184
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-6">
+            <div class="jumbotron">
+                <img src="image/recommend/rmtj3.png">
+                <div style="width: 100%;height: 40px"><p>新日暮里春节联欢van♂会（2017哲学电音合作）</p>
+                </div><div class="div-bottom">
+                    <div>
+                        <img src="image/recommend/gks.png">47.9万
+                    </div>
+                    <div>
+                        <img src="image/recommend/pls.png">1184
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6">
+            <div class="jumbotron">
+                <img src="image/recommend/rmtj4.jpg">
+                <div style="width: 100%;height: 40px"> <p>听说恋恋想用小拳拳捶你胸口！【山新x恋恋】</p>
+               </div> <div class="div-bottom">
+                    <div>
+                        <img src="image/recommend/gks.png">47.9万
+                    </div>
+                    <div>
+                        <img src="image/recommend/pls.png">1184
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div style="text-align: center;height: 20px;font-size: 11px">
+    <span style="line-height:20px;margin-right: 5px;">换一拨推荐</span>
+    <img src="image/recommend/refresh.png" width="18px;">
+</div>
+
+
+<!--正在直播-->
+<div class="container-fluid">
+    <div style="margin: 10px 0;height: 25px;">
+        <img src="image/live/tuijian.png" style="vertical-align: middle;margin-bottom: 5px;" width="25px">
+        <span style="line-height: 25px">正在直播</span>
+        <span style="float: right">查看更多直播 ></span>
+    </div>
+
+
+    <div class="row" id="live">
+        <!--<a href="http://live.bilibili.com/h5/5279">-->
+        <!--<div class="col-xs-6">-->
+            <!--<div class="jumbotron">-->
+                <!--<img src="image/live/danji.jpg">-->
+                <!--<div style="width: 100%;height: 40px">-->
+                    <!--<p><strong>#单机联机#</strong>黎明杀机-壹度</p>-->
+                <!--</div>-->
+
+                <!--<div class="div-bottom">-->
+                    <!--<span style="margin-left: 10px;">黎明杀机-壹度</span>-->
+                    <!--<div style="float: right">-->
+                        <!--<img src="image/live/eye.png" style="width: 15px;">-->
+                        <!--<span class="online">840</span>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--</a>-->
+    </div>
+
+
+
+    <script>
+        function myCheck(data) {
+            if (data == 'rangking') {
+                window.location.href = 'ranking.html';
+            }
+        }
+
+        window.onload = function () {
+            var url = "http://live.bilibili.com/h5/recommendRooms?callback=?";
+            $.getJSON(url, "jQuery17202602223168490747_1486870006016&_=1486870006299", function (result) {
+                for (var i = 0; i < result.data.length; i++) {
+                    var online ;
+                    if(result.data[i].online>=10000){
+                        online = (result.data[i].online/10000).toFixed(1)+"万";
+                    }else {
+                        online=result.data[i].online;
+                    }
+
+                    document.getElementById("live").innerHTML += "<div class='col-xs-6'><div class='jumbotron'>" +
+                            "<img src='" + result.data[i].cover + "'> <div style='width: 100%;height: 40px'><p>" +
+                            "<strong>#单机联机#</strong>" + result.data[i].title + "</p></div>" +
+                            "<div class='div-bottom'> <span style='margin-left：10px'>" +
+                            result.data[i].uname + "</span>" +
+                            "<div style='float: right'> <img src='image/live/eye.png' style='width：15px'>" +
+                            "<span style='margin-left: 0'>" + online + "</span> </div></div></div></div>";
+                }
+            })
+        }
+    </script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

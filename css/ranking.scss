@@ -1,0 +1,93 @@
+@import "constant";
+
+.navbar-header{
+    span{
+        line-height: 50px;
+        font-size: 16px;
+        margin-left: 5px;
+    }
+}
+
+.navbar{
+    position: fixed;
+    top:0px;
+    left:0;
+    width: 100%;
+    z-index: 4;
+}
+
+.site-wrapper {
+    display: table;
+    width: 100%;
+    background-color: #fb7299;
+    position: fixed;
+    top: 50px;
+    left: 0px;
+    z-index: 3;
+     }
+
+.masthead-nav {
+    float: left;
+    margin-top: 10px; }
+
+.masthead-nav > li > a{
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.mycol6{
+    float: left;
+    span{
+        font-size: $small-fontSize;
+        color:$small-fontColor ;
+    }
+}
+
+.mycol{
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+/* 表格布局的九宫格 */
+.mytb {
+    padding-right: 10px;
+    width: 100%;
+    tr td{
+        padding-top: 5px;
+
+        img{
+            width: 150px;
+            margin-bottom:5px;
+        }
+        p{
+            text-overflow:ellipsis;
+            overflow:hidden;
+            display:-webkit-box;
+            -webkit-line-clamp:2;
+            -webkit-box-orient:vertical;
+
+        }
+        span{
+            margin-bottom: 10px;
+            font-size: $small-fontSize;
+            color:$small-fontColor ;
+        }
+    }
+
+}
+
+
+.mytd{
+    width: 40px;
+    text-align: center;
+}
+
+.mytd-border{
+    border-bottom: 0.5px solid #e0e0e0;
+}
+
+.mypadding{
+    padding-left: 10px;
+    padding-right: 10px;
+}
